@@ -9,8 +9,8 @@ variable "resource_group_name" {
 variable "location" {
   type = map(string)
   default = {
-    value  = "Canada Central"
-    suffix = "canadacentral" # The corresponding value of location that is used by Azure in naming AKS resource groups
+    value  = "US West 2"
+    suffix = "uswest2" # The corresponding value of location that is used by Azure in naming AKS resource groups
   }
 }
 
